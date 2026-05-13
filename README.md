@@ -1,34 +1,33 @@
-# Hello Cloud
+# Week 1 — Cloud Engineering Foundations
 
-A beginner Python script built on Day 1 of a structured cloud engineering program. Covers variables, f-strings, lists, and functions — run locally and version-controlled with Git.
+Hands-on practice from the first week of a structured 30-day cloud engineering program.
+Covers Python basics, Git workflow, and Linux fundamentals.
 
-## How to Run
+## Contents
+
+| File | Description |
+|------|-------------|
+| `hello_cloud.py` | First Python script — variables, f-strings, lists, functions |
+| `linux-notes.txt` | Linux command reference built during WSL2 practice |
+
+## Environment
+
+- OS: Windows 11 + WSL2 (Ubuntu 24.04)
+- Tools: Python 3, VS Code, Git, Windows Terminal
+
+## How to Run the Python Script
 
 ```bash
 python hello_cloud.py
 ```
 
-## Output
+## Key Concepts Covered
 
-```
-Hello, Cloud World!
-My name is Remsha Shrestha
-My goal is to become an AWS Cloud Engineer
-
-AWS Services I will learn:
-  - S3
-  - EC2
-  - Lambda
-  - IAM
-  - CloudWatch
-
-Welcome to cloud engineering, Remsha Shrestha!
-```
-
-## Tools
-
-Python 3 · VS Code · Git · Windows Terminal
+- Python: variables, f-strings, lists, for loops, functions
+- Linux: navigation, file operations, nano, grep, file redirection
+- Git: init, add, commit, push
+- WSL2: running Ubuntu on Windows, accessing Windows files at /mnt/c/
 
 ---
 
-*Day 1 — 30-day cloud engineering program · May 2026*
+*Week 1 — 30-day cloud engineering program · May 2026*

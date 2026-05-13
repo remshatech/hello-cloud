@@ -1,0 +1,27 @@
+# Linux Notes — Day 2
+# Date: May 13, 2026
+
+## Commands Practiced
+pwd    - shows current folder path
+ls     - lists files in folder
+ls -la - lists all files including hidden
+mkdir  - creates a new folder
+cd     - changes directory
+touch  - creates an empty file
+echo   - writes text to a file
+cat    - reads and prints a file
+cp     - copies a file
+mv     - moves or renames a file
+rm     - deletes a file (permanent)
+nano   - terminal text editor
+grep   - searches inside files
+
+## Key Difference
+>  overwrites a file
+>> appends to a file
+
+## Where Windows Files Live in WSL
+/mnt/c/Users/Saurav/
+
+## What Surprised Me
+(write one honest line here)

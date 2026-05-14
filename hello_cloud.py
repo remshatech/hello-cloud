@@ -12,15 +12,15 @@ cloud_goal = "AWS Cloud Engineer"
 
 # Line 3: f-strings let you put variables inside text
 print(f"My name is {my_name}")
-print (f"My goal is to become an {cloud_goal}")
+print(f"My goal is to become an {cloud_goal}")
 
 # Line 4: A list stores multiple items
 aws_services = ["S3", "EC2", "Lambda", "IAM", "CloudWatch"]
 
 # Line 5: A for loop goes through each item in the list
-# print("\nAWS Services I will learn:")
-# for service in aws_services:
-#     print(f" - {services}")
+print("\nAWS Services I will learn:")
+for service in aws_services:
+    print(f" - {service}")
 
 # Line 6: Simple function - a reusable block of code
 def greet_cloud(name) :

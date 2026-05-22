@@ -1,0 +1,30 @@
+# Python cache files — auto-generated, never push these
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folders
+.env
+venv/
+.venv/
+
+# AWS credentials — NEVER push these
+.aws/
+*.pem
+*.key
+credentials
+
+# VS Code settings
+.vscode/
+
+# Screenshots folder — personal, not project code
+screenshots/
+
+# Generated reports — these change every run
+weather-report.txt
+cloud-report.txt
+
+# OS files
+.DS_Store
+Thumbs.db

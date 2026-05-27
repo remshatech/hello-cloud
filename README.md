@@ -13,6 +13,7 @@ Covers Python basics, Git workflow, and Linux  and Rest APIs.
 | `cloud-cost-calculator.py` | CLI tool to estimate EC2 and S3 monthly cost |
 | `python-apis.py` | Lists, dictionaries, file handling practice |
 | `weather-script.py` | Fetches live weather for multiple cities via REST API, saves report |
+| `.gitignore` | Excludes cache files, credentials, and generated reports from Git |
 
 ## Environment
 
@@ -33,9 +34,10 @@ cat linux-notes.txt
 python cloud-cost-calculator.py
 python python-basics.py
 
-# Day 4
+# Day 4 live weather API (requires: pip install requests)
 python weather-script.py
 ```
+ Day 5 produced a .gitignore configuration — neither has a script to run.
 
 ## Key Concepts Covered
 

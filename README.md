@@ -36,8 +36,9 @@ python python-basics.py
 
 # Day 4 live weather API (requires: pip install requests)
 python weather-script.py
+
+# Day 5 produced a .gitignore configuration — neither has a script to run.
 ```
- Day 5 produced a .gitignore configuration — neither has a script to run.
 
 ## Key Concepts Covered
 

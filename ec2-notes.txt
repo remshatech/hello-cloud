@@ -1,0 +1,21 @@
+# EC2 Practice Instance — Day 11
+
+Instance ID:     i-02bcabaaf39f42e45
+Instance Type:   t2.micro
+AMI:             Amazon Linux 2023 (ami-0c374876b6fc67b33)
+Key Pair:        remsha-ec2-key
+Key Location:    C:\Users\Saurav\.ssh\remsha-ec2-key.pem
+Security Group:  sg-035fb33b81f9265c4 (remsha-ssh-sg-v2)
+VPC:             vpc-009e2d719839caf39
+Subnet:          subnet-0d1138ea95c1ab9e9 (us-east-1a)
+Region:          us-east-1
+
+SSH Command:
+ssh -i C:\Users\Saurav\.ssh\remsha-ec2-key.pem ec2-user@PUBLIC-IP
+
+Note: Public IP changes each time the instance is started.
+Check current IP with:
+aws ec2 describe-instances --instance-ids i-02bcabaaf39f42e45 --query "Reservations[].Instances[].PublicIpAddress" --output text
+
+Cost: $0.0116/hr — STOP after every session
+Status: STOPPED ✅

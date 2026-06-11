@@ -19,3 +19,13 @@ aws ec2 describe-instances --instance-ids i-02bcabaaf39f42e45 --query "Reservati
 
 Cost: $0.0116/hr — STOP after every session
 Status: STOPPED ✅
+
+## What I learned Day 11
+- SSH key pair creation and rotation
+- Security groups with /32 CIDR restriction
+- VPC and subnet relationships
+- Launching EC2 via CLI
+- SSH from Windows to Linux
+- Running Python on a remote server
+- Stopping vs terminating instances
+- Resource hygiene (cleaning up orphaned instances)

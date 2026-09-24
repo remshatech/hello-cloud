@@ -1,6 +1,6 @@
 # Week 1 — Cloud Engineering Foundations
 
-Hands-on practice from the first week of a structured 30-day cloud engineering program.
+Hands-on practice of a structured cloud engineering.
 Covers Python basics, Git workflow, and Linux  and Rest APIs.
 
 ## Contents
@@ -50,4 +50,4 @@ python weather-script.py
 
 ---
 
-*Week 1 — 30-day cloud engineering program · May 2026*
+# Author: Remsha | May 2026

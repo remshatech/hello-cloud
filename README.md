@@ -50,4 +50,4 @@ python weather-script.py
 
 ---
 
-# Author: Remsha | May 2026
+# Author: Remsha | September 2026
